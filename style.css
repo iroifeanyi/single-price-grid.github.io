@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsla(217, 22%, 67%, 0.562);
+    font-family: 'Karla', sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-box{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.first-box{
+    width: 600px;
+    padding: 15px 0px 10px 30px ;
+}
+.sky-blue-text{
+    font-size: 28px;
+    font-weight: bolder;
+    color: hsl(179, 62%, 43%);
+    padding: 0px 0px 10px 0px ;
+}
+.lemon-green-text{
+    font-size: 18px;
+    color: hsl(71, 75%, 55%);
+    font-weight: bolder;
+    padding: 0px 0px 5px 0px ;
+}
+.dark-text{
+    font-size: 15px;
+    width: 90%;
+    line-height: 25px;
+    padding: 0px 0px 5px 0px ;
+}
+.second-box{
+    width: 600px;
+    display: flex;
+}
+.left-side-box{
+    background-color: hsl(179, 68%, 42%);
+    width: 300px;
+    padding: 20px 0px 15px 30px ;
+}
+.left-box-text{
+    color: white;
+}
+.left-box-first-text{
+    padding: 0px 0px 15px 0px ;
+    font-size: 15px;
+}
+.left-box-sec-text{
+    padding: 0px 0px 10px 0px ;
+    font-size: 22px;
+    font-weight: 800;
+}
+.month-text{
+    margin-top: -32px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.521);
+}
+.left-box-thrid-text{
+    padding: 10px 0px 10px 0px ;
+    font-size: 14px;
+}
+.main-button{
+    width: 73%;
+    padding: 10px 0px 10px 0px ;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+}
+.text-button{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 12px;
+}
+.green-button{
+    padding: 10px 0px 10px 0px ;
+}
+.right-side-box{
+    background-color: hsla(179, 68%, 42%, 0.719);
+    width: 300px;
+    padding: 20px 0px 15px 30px ;
+}
+.right-box-text{
+    color: white;
+    
+}
+.right-box-first-text{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 0px 10px 0px ;
+}
+.right-box-sec-text{
+    width: 80%;
+    font-size: 14px;
+    line-height: 18px;
+}
+@media screen and (max-width: 560px){
+    .main-box{
+        background-color: white;
+        width: 270px;
+        border-radius: 5px;
+    }
+    .first-box{
+        width: 270px;
+        padding: 15px 0px 10px 30px ;
+    }
+    .second-box{
+        width: 270px;
+        flex-direction: column;
+    }
+    .sky-blue-text{
+        font-size: 25px;
+        padding: 0px 0px 10px 0px ;
+    }
+    .lemon-green-text{
+        font-size: 17px;
+        width: 90%;
+        padding: 0px 0px 15px 0px ;
+    }
+    .main-button{
+        width: 78%;
+    }
+}
